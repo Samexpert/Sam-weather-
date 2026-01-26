@@ -3,6 +3,7 @@ document.addEventListener("DOMContentLoaded", function () {
   const API_KEY = import.meta.env.VITE_WEB_API_KEY;
   const BASE_URL = import.meta.env.VITE_WEB_BASE_URL;
 
+  
   // DOM Elements
   const cityInput = document.getElementById("cityInput");
   const searchBtn = document.getElementById("searchBtn");
@@ -141,3 +142,5 @@ document.addEventListener("DOMContentLoaded", function () {
     errorDisplay.style.display = "none";
   }
 });
+
+
